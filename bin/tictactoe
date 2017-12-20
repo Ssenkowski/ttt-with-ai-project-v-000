@@ -37,6 +37,7 @@ def start_game(input)
         dbl_space
         @game = Game.new(player_1, player_2).play
         @game
+        play_again?
       elsif number_of_players == 1
         player_1 = Players::Human.new("X")
         player_2 = Players::Computer.new("O")
