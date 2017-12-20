@@ -2,9 +2,7 @@
 
 require_relative '../config/environment'
 
-def initialize
-  start
-end
+start
 #Greet the user with a message
 def start
   puts "Welcome to Tic Tac Toe! Where are you from? (Spain, France, The Old West)"
