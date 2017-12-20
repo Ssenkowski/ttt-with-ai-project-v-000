@@ -2,6 +2,23 @@
 
 require_relative '../config/environment'
 
+def start
+  puts "Welcome to Tic Tac Toe! Where are you from? (Spain, France, The Old West)"
+  regional_fun =  gets.strip.downcase
+  if regional_fun == "spain"
+    puts "Hola! Welcome to Tic Tac Toe! Would you like to play? (Y/n)"
+    input =  gets.strip.downcase
+    starting_game(input)
+  elsif regional_fun == "france"
+    puts "Bonjour! Welcome to Tic Tac Toe! Would you like to play? (Y/n)"
+    input =  gets.strip.downcase
+    starting_game(input)
+  else regional_fun == "the old west"
+    puts "Howdy partner! Welcome to Tic Tac Toe! Would you like to play? (Y/n)"
+    input =  gets.strip.downcase
+    starting_game(input)
+  end
+end
 #Greet the user with a message
 def starting_game(input)
     if input == "y"
@@ -30,22 +47,6 @@ def starting_game(input)
     end
   end
 
-def start
-  puts "Welcome to Tic Tac Toe! Where are you from? (Spain, France, The Old West)"
-  regional_fun =  gets.strip.downcase
-  if regional_fun == "spain"
-    puts "Hola! Welcome to Tic Tac Toe! Would you like to play? (Y/n)"
-    input =  gets.strip.downcase
-    starting_game(input)
-  elsif regional_fun == "france"
-    puts "Bonjour! Welcome to Tic Tac Toe! Would you like to play? (Y/n)"
-    input =  gets.strip.downcase
-    starting_game(input)
-  else regional_fun == "the old west"
-    puts "Howdy partner! Welcome to Tic Tac Toe! Would you like to play? (Y/n)"
-    input =  gets.strip.downcase
-    starting_game(input)
-  end
 
 end
 
