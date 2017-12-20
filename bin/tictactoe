@@ -34,6 +34,7 @@ def start_game(input)
           player_1 = Players::Computer.new("X")
           player_2 = Players::Computer.new("O")
           puts "Great! Starting your new game..."
+          dbl_space
           @game = Game.new(player_1, player_2).play
           @game
         elsif number_of_players == 1
