@@ -57,13 +57,14 @@ def start_game(input)
   end
 
 start
-
+def play_again?
   puts "Would you like to play again? (Y/n)"
   play_again = gets.strip.downcase
   if play_again == "y" || play_again == "yes"
     start
   else puts "Fantastic, have a great day!"
   end
+end
 
 def dbl_space
   puts ""
