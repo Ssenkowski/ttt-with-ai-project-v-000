@@ -16,7 +16,7 @@ def start
     puts "Bonjour! Welcome to Tic Tac Toe! Would you like to play? (Y/n)"
     input =  gets.strip.downcase
     dbl_space
-    starting_game(input)
+    start_game(input)
   else regional_fun == "the old west"
     puts "Howdy partner! Welcome to Tic Tac Toe! Would you like to play? (Y/n)"
     input =  gets.strip.downcase
