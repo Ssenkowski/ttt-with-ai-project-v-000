@@ -51,6 +51,7 @@ def start_game(input)
         player_2 = Players::Human.new("O")
         @game = Game.new(player_1, player_2).play
         @game
+        play_again?
       end
   else puts "Ok nice to meet you, Goodbye!"
   end
