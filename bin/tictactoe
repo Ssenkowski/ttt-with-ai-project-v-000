@@ -55,7 +55,7 @@ def start_game(input)
         @game
         play_again?
       end
-  else puts "Ok nice to meet you, hope its a good day!"
+  else puts "Ok nice to meet you, hope it's a good day!"
   end
 end
 
