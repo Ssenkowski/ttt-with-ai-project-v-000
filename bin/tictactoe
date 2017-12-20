@@ -44,6 +44,7 @@ def start_game(input)
         dbl_space
         @game = Game.new(player_1, player_2).play
         @game
+        play_again?
       elsif number_of_players == 2
         puts "Great! Starting your new game..."
         dbl_space
