@@ -6,6 +6,7 @@ require_relative '../config/environment'
 def start
   puts "Welcome to Tic Tac Toe! Where are you from? (Spain, France, The Old West)"
   regional_fun =  gets.strip.downcase
+  dbl_space
   if regional_fun == "spain"
     puts "Hola! Welcome to Tic Tac Toe! Would you like to play? (Y/n)"
     input =  gets.strip.downcase
