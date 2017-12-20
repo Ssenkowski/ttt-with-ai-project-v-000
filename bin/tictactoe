@@ -63,7 +63,7 @@ def play_again?
   puts "Would you like to play again? (Y/n)"
   input = gets.strip.downcase
     if input == "y" || input == "yes"
-      start_game(play_again)
+      start_game(input)
     else puts "Fantastic, have a great day!"
     end
 end
