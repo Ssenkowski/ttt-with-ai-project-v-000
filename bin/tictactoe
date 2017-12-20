@@ -55,5 +55,5 @@ start
   play_again = gets.strip.downcase
   if play_again == "y" || play_again == "yes"
     start
-  else puts "Ok nice to meet you, Goodbye!"
+  else puts "Fantastic, have a great day!"
   end
