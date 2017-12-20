@@ -72,3 +72,5 @@ def dbl_space
   puts ""
   puts ""
 end
+
+start
