@@ -64,7 +64,9 @@ def play_again?
   input = gets.strip.downcase
     if input == "y" || input == "yes"
       start_game(input)
-    else puts "Fantastic, have a great day!"
+    else
+      dbl_space
+      puts "Fantastic, have a great day!"
     end
 end
 
