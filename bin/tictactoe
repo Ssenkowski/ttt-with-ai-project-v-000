@@ -53,6 +53,7 @@ start
 
   puts "Would you like to play again? (Y/n)"
   play_again = gets.strip.downcase
-  if play_again == "y" || "yes"
-    start   
+  if play_again == "y" || play_again == "yes"
+    start
+  else puts "Ok nice to meet you, Goodbye!"
   end
